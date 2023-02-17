@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply h-full;
+}
+
+body {
+  @apply bg-gray-800 text-gray-700 antialiased;
+}
